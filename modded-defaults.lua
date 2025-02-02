@@ -2,8 +2,7 @@ local Public = {}
 
 Public.fallback_tier = 3 + 1 / 3
 
---== MODDED ==--
---Modders are welcome to override these values by including a 'tier' field in the prototype.
+-- For vanilla tiers, see vanilla.lua or the mod portal homepage.
 
 Public.default_modded_planet_tiers = {
 	akularis = 0.5,

@@ -1,7 +1,5 @@
 local Public = {}
 
---== VANILLA ==--
-
 Public.vanilla_planet_tiers = {
 	nauvis = 1,
 	vulcanus = 1.8,

@@ -1,4 +1,4 @@
-local defaults = require("defaults")
+local defaults = require("modded-defaults")
 
 for name, tier in pairs(defaults.default_modded_planet_tiers) do
 	if data.raw.planet[name] and not data.raw.planet[name].tier then
