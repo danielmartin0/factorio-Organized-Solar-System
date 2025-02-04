@@ -30,7 +30,7 @@ Public.default_modded_planet_tiers = {
 }
 
 Public.default_modded_location_tiers = {
-	secretas = 5.5,
+	secretas = 5.65,
 }
 
 return Public
