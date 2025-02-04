@@ -1,6 +1,6 @@
 ---------------------------------------------------------------------------------------------------
 Version: 2.1.1
-Date: ????
+Date: 2025-02-04
   Changes:
     - Fulgora tier increased from 2.2 to 2.4.
     - Gleba tier decreased from 3.5 to 3.4.
