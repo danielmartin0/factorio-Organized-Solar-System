@@ -4,7 +4,7 @@ Public.vanilla_planet_tiers = {
 	nauvis = 1,
 	vulcanus = 1.8,
 	fulgora = 2.4,
-	gleba = 3.4,
+	gleba = 3.6,
 	aquilo = 5,
 }
 
