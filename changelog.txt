@@ -1,7 +1,10 @@
 ---------------------------------------------------------------------------------------------------
-Version: 2.0.8
+Version: 2.1.0
 Date: ????
   Changes:
+    - Fulgora tier increased from 2.2 to 2.4.
+    - Gleba tier decreased from 3.5 to 3.4.
+    - Slightly shifted the positions of all tiers forward such that Aquilo appears in its vanilla location. This means Aquilo is once again 100,000km from the solar system edge.
 ---------------------------------------------------------------------------------------------------
 Version: 2.0.7
 Date: 2025-02-04

@@ -1,6 +1,6 @@
 local Public = {}
 
-Public.fallback_tier = 3 + 1 / 3
+Public.fallback_tier = 3.22581
 
 -- For vanilla tiers, see vanilla.lua or the mod portal homepage.
 
