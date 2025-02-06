@@ -16,9 +16,13 @@ for _, type in pairs({ "space-location", "planet" }) do
 	for _, loc in pairs(data.raw[type] or {}) do
 		if loc.orbit and loc.orbit.parent and loc.orbit.parent.name then
 			if loc.orbit.parent.name == "star" then
-				loc.tier = loc.tier or defaults.fallback_tier
+				if loc.tier == nil then
+					loc.tier = defaults.fallback_tier
+				end
 
-				loc.orientation = 1 - (loc.tier * 0.155)
+				if loc.tier ~= -1 then
+					loc.orientation = 1 - (loc.tier * 0.155)
+				end
 			end
 		end
 	end
