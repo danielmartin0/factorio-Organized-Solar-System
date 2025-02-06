@@ -1,8 +1,16 @@
 local Public = {}
 
-Public.fallback_tier = 3.22581
+--== Tier meanings ==--
+-- Tier 0:  Pre-Nauvis
+-- Tier 1:  Nauvis & friends
+-- Tier 2:  First steps from Nauvis
+-- Tier 3:  Intermediate planets that may reward preparation
+-- Tier 4:  Difficult planets that aren't part of the endgame
+-- Tier 5:  Aquilo and the vanilla endgame
+-- Tier 6:  Post-endgame planets and other oddities
+-- Tier -1: Planet is placed in its original location
 
--- For vanilla tiers, see vanilla.lua or the mod portal homepage.
+Public.fallback_tier = 3.22581
 
 Public.default_modded_planet_tiers = {
 	akularis = 0.5,
@@ -32,5 +40,7 @@ Public.default_modded_planet_tiers = {
 Public.default_modded_location_tiers = {
 	secretas = 5.65,
 }
+
+-- For vanilla tiers, see vanilla.lua or the mod portal homepage.
 
 return Public
