@@ -2,6 +2,7 @@
 Version: 2.1.8
 Date: ????
   Changes:
+    - Added checkbox setting to ensure that the vanilla planets are always connected.
 ---------------------------------------------------------------------------------------------------
 Version: 2.1.7
 Date: 2025-02-07
