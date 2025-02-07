@@ -10,7 +10,7 @@ local Public = {}
 -- Tier 6:  Post-endgame planets and other oddities
 -- Tier -1: Planet is placed in its original location
 
-Public.fallback_tier = 3.22581
+Public.fallback_tier = 3.22581 -- Vertically south of the star
 
 Public.default_modded_planet_tiers = {
 	akularis = 0.5,
