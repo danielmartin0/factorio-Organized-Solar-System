@@ -7,8 +7,18 @@ for name, tier in pairs(defaults.default_modded_planet_tiers) do
 end
 
 for name, tier in pairs(defaults.default_modded_location_tiers) do
-	if data.raw["space-location"][name] and not data.raw["space-location"][name].tier then
-		data.raw["space-location"][name].tier = tier
+	if data.raw["space-location"][name] then
+		if data.raw["space-location"][name].tier then
+			log(
+				"Tiered-Solar-System: "
+					.. name
+					.. " has a pre-existing tier of "
+					.. data.raw["space-location"][name].tier
+					.. "."
+			)
+		else
+			data.raw["space-location"][name].tier = tier
+		end
 	end
 end
 
