@@ -10,7 +10,7 @@ local Public = {}
 -- Tier 5:  Aquilo and the vanilla endgame
 -- Tier 6:  Post-endgame planets and other oddities
 
-Public.fallback_tier = 3.23333 -- Vertically south of the star
+Public.fallback_tier = 3.33333 -- Vertically south of the star
 
 Public.default_modded_planet_tiers = {
 	akularis = 0.5,

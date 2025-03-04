@@ -2,6 +2,7 @@
 Version: 2.2.2
 Date: ????
   Changes:
+    - Fixed that planets without an assigned tier appeared not exactly below the star, but slightly askew.
 ---------------------------------------------------------------------------------------------------
 Version: 2.2.0
 Date: 2025-02-24
