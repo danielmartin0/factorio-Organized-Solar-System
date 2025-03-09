@@ -2,6 +2,7 @@
 Version: 2.2.3
 Date: ????
   Changes:
+    - SLP Dyson Sphere sun orbital locations are moved to tier=0.2, and redrawn_connections_exclude is applied to the innermost location.
 ---------------------------------------------------------------------------------------------------
 Version: 2.2.2
 Date: 2025-03-04

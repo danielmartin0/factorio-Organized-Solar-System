@@ -37,3 +37,7 @@ for _, type in pairs({ "space-location", "planet" }) do
 		end
 	end
 end
+
+if data.raw["space-location"]["slp-solar-system-sun2"] then
+	data.raw["space-location"]["slp-solar-system-sun2"].redrawn_connections_exclude = true
+end
