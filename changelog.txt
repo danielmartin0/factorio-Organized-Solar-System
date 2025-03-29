@@ -1,7 +1,9 @@
 ---------------------------------------------------------------------------------------------------
-Version: 2.2.5
+Version: 2.3.0
 Date: ????
   Changes:
+    - Cosmic Social Distancing default distance increased to 5000km.
+    - Terra Palus is now made to orbit Gleba.
 ---------------------------------------------------------------------------------------------------
 Version: 2.2.4
 Date: 2025-03-29

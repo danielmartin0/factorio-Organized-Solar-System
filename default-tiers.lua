@@ -25,7 +25,6 @@ Public.default_modded_planet_tiers = {
 	janus = 3,
 	ithurice = 3.3,
 	corrundum = 3.3,
-	terrapalus = 3.5,
 	castra = 4,
 	tapatrion = 4,
 	tenebris = 4,
