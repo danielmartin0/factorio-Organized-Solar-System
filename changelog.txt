@@ -2,6 +2,7 @@
 Version: 2.2.4
 Date: ????
   Changes:
+    - Changed label orientations to match the orientation.
 ---------------------------------------------------------------------------------------------------
 Version: 2.2.3
 Date: 2025-03-09

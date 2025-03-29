@@ -28,10 +28,12 @@ for _, type in pairs({ "space-location", "planet" }) do
 			if loc.orbit.parent.name == "star" then
 				if loc.tier == nil then
 					loc.tier = tiers.fallback_tier
+					loc.label_orientation = loc.orientation
 				end
 
 				if loc.tier ~= -1 then
 					loc.orientation = 1 - (loc.tier * 0.15)
+					loc.label_orientation = loc.orientation
 				end
 			end
 		end
