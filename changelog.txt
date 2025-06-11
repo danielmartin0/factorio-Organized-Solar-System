@@ -1,14 +1,10 @@
 ---------------------------------------------------------------------------------------------------
-Version: 2.4.1
-Date: ????
-  Changes:
----------------------------------------------------------------------------------------------------
 Version: 3.0.0
 Date: ????
   Changes:
     - Tiers that cross the orientation=0 axis north of the star are now usually removed. (This undoes a recent change within Redrawn Space Connections.)
+    - Planets with no tier are now excluded from the Cosmic Social Distancing algorithm such that they truly appear vertically beneath the star.
     - The specification of tiers has been moved to PlanetsLib.
-    - Since PlanetsLib is now the source of truth, tiers can no longer be set within other mods.
 ---------------------------------------------------------------------------------------------------
 Version: 2.3.0
 Date: 2025-03-29

@@ -9,6 +9,10 @@ for _, type in pairs({ "space-location", "planet" }) do
 					tier = PlanetsLib.get_space_location_tier(loc.name)
 				end
 
+				if tier == 3.33333 then
+					loc.cosmic_social_distancing_ignore = true
+				end
+
 				if tier ~= -1 then
 					loc.orientation = 1 - (tier * 0.15)
 					loc.label_orientation = loc.orientation
