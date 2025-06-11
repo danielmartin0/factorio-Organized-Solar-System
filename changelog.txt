@@ -1,6 +1,6 @@
 ---------------------------------------------------------------------------------------------------
 Version: 3.0.0
-Date: ????
+Date: 2025-06-11
   Changes:
     - Tiers that cross the orientation=0 axis north of the star are now usually removed. (This undoes a recent change within Redrawn Space Connections.)
     - Planets with no tier are now excluded from the Cosmic Social Distancing algorithm such that they truly appear vertically beneath the star.
