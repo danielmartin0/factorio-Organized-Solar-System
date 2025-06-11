@@ -1,38 +1,16 @@
-local tiers = require("default-tiers")
-
-for name, tier in pairs(tiers.default_modded_planet_tiers) do
-	if data.raw.planet[name] and not data.raw.planet[name].tier then
-		data.raw.planet[name].tier = tier
-	end
-end
-
-for name, tier in pairs(tiers.default_modded_location_tiers) do
-	if data.raw["space-location"][name] then
-		if data.raw["space-location"][name].tier then
-			log(
-				"Tiered-Solar-System: "
-					.. name
-					.. " has a pre-existing tier of "
-					.. data.raw["space-location"][name].tier
-					.. "."
-			)
-		else
-			data.raw["space-location"][name].tier = tier
-		end
-	end
-end
-
 for _, type in pairs({ "space-location", "planet" }) do
 	for _, loc in pairs(data.raw[type] or {}) do
 		if loc.orbit and loc.orbit.parent and loc.orbit.parent.name then
 			if loc.orbit.parent.name == "star" then
-				if loc.tier == nil then
-					loc.tier = tiers.fallback_tier
-					loc.label_orientation = loc.orientation
+				local tier
+				if type == "planet" then
+					tier = PlanetsLib.get_planet_tier(loc.name)
+				else
+					tier = PlanetsLib.get_space_location_tier(loc.name)
 				end
 
-				if loc.tier ~= -1 then
-					loc.orientation = 1 - (loc.tier * 0.15)
+				if tier ~= -1 then
+					loc.orientation = 1 - (tier * 0.15)
 					loc.label_orientation = loc.orientation
 				end
 			end
