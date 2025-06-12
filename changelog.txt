@@ -2,6 +2,7 @@
 Version: 3.0.1
 Date: ????
   Changes:
+    - The tier=-1 opt-on on space location prototypes is now once again respected. This corrects the position of Dea Dia System.
 ---------------------------------------------------------------------------------------------------
 Version: 3.0.0
 Date: 2025-06-11

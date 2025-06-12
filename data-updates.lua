@@ -13,7 +13,10 @@ for _, type in pairs({ "space-location", "planet" }) do
 					loc.cosmic_social_distancing_ignore = true
 				end
 
-				if tier ~= -1 then
+				-- local has_oss_exclusion_parameter = false
+				local has_oss_exclusion_parameter = loc.tier == -1
+
+				if tier ~= -1 and not has_oss_exclusion_parameter then
 					loc.orientation = 1 - (tier * 0.15)
 					loc.label_orientation = loc.orientation
 				end
