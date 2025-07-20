@@ -2,6 +2,8 @@
 Version: 3.0.2
 Date: ????
   Changes:
+    - Updated tier list dependency to the new PlanetsLib: Tiers mod.
+    - Moved Erimos Prime further from the sun.
 ---------------------------------------------------------------------------------------------------
 Version: 3.0.1
 Date: 2025-06-12
